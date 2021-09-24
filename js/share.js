@@ -2,7 +2,7 @@ function kakaoShare(){
   Kakao.Link.sendDefault({
   objectType: 'feed',
   content: {
-    title: '디저트 사진',
+    title: '신체부위 테스트',
     description: '아메리카노, 빵, 케익',
     imageUrl:
       'http://mud-kage.kakao.co.kr/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
@@ -31,5 +31,10 @@ function kakaoShare(){
     },
   ]
 });
+}
 
+function twitterShare() {
+  var sendText = "나를 대표하는 신체부위"; // 전달할 텍스트
+  var sendUrl = "https://ifbop.netlify.app/"; // 전달할 URL
+  window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
 }

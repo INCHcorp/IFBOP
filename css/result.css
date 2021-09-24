@@ -33,6 +33,19 @@
   color: #FEE500;
 }
 
+.twitter{
+  color: white;
+  background-color: #00acee;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.twitter:hover, .twitter:focus {
+  background-color: whitesmoke;
+  color: #00acee;
+}
+
 .gohome{
   color: white;
   background-color: pink;
