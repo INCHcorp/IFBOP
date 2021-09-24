@@ -46,6 +46,19 @@
   color: #00acee;
 }
 
+.facebook{
+  color: white;
+  background-color: #3b5998;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.facebook:hover, .facebook:focus {
+  background-color: whitesmoke;
+  color: #3b5998;
+}
+
 .gohome{
   color: white;
   background-color: pink;

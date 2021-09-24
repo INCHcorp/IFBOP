@@ -35,6 +35,11 @@ function kakaoShare(){
 
 function twitterShare() {
   var sendText = "나를 대표하는 신체부위"; // 전달할 텍스트
-  var sendUrl = "https://ifbop.netlify.app/"; // 전달할 URL
+  var sendUrl = "devpad.tistory.com/"; // 전달할 URL
   window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
+}
+
+function facebookShare() {
+  var sendUrl = "https://ifbop.netlify.app/"; // 전달할 URL
+  window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
 }
