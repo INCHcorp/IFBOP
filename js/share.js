@@ -1,12 +1,12 @@
 const url = 'https://ifbop.netlify.app/';
+var resultImg = document.querySelector('#resultImg1');
+var resultAlt = resultImg.firstElementChild.alt;
+const shareTitle = '내가 만약 신체부위라면 심리 테스트 결과';
+const shareDes = infoList[resultAlt].name;
+const shareImage = url + 'img/image-' + resultAlt + '.png';
+const shareURL = url + 'page/result-' + resultAlt + '.html';
 
 function setShare(){
-  var resultImg = document.querySelector('#resultImg1');
-  var resultAlt = resultImg.firstElementChild.alt;
-  const shareTitle = '내가 만약 신체부위라면 심리 테스트 결과';
-  const shareDes = infoList[resultAlt].name;
-  const shareImage = url + 'img/image-' + resultAlt + '.png';
-  const shareURL = url + 'page/result-' + resultAlt + '.html';
 
   Kakao.Link.sendDefault({
   objectType: 'feed',
