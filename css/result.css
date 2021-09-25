@@ -20,6 +20,15 @@
   font-size: 20px;
 }
 
+.kakao{
+  color: white;
+  background: url("./img/kakao.png");
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 .twitter{
   color: white;
   background-color: #00acee;
