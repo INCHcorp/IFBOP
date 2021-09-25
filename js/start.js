@@ -18,19 +18,26 @@ function setResult(){
 
   var resultImg1 = document.createElement('img');
   var resultImg2 = document.createElement('img');
+  var resultImg3 = document.createElement('img');
   const imgDiv1 = document.querySelector('#resultImg1');
   const imgDiv2 = document.querySelector('#resultImg2');
+  const imgDiv2 = document.querySelector('#resultImg3');
   var imgURL1 = 'img/image-' + point + '.png';
   var imgURL2 = 'img/image-' + 'result' + point + '.png';
+  var imgURL3 = 'img/image-' + 'friend' + point + '.png';
   resultImg1.src = imgURL1;
   resultImg2.src = imgURL2;
+  resultImg3.src = imgURL3;
   resultImg1.alt = point;
   resultImg2.alt = point;
+  resultImg3.alt = point;
   resultImg1.classList.add('img-fluid');
   resultImg2.classList.add('img-fluid');
+  resultImg3.classList.add('img-fluid');
   imgDiv1.appendChild(resultImg1);
   imgDiv2.appendChild(resultImg2);
-  
+  imgDiv3.appendChild(resultImg3);
+
   const resultDesc = document.querySelector('.resultDesc');
   resultDesc.innerHTML = infoList[point].desc;
 }
