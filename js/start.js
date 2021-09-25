@@ -21,7 +21,7 @@ function setResult(){
   var resultImg3 = document.createElement('img');
   const imgDiv1 = document.querySelector('#resultImg1');
   const imgDiv2 = document.querySelector('#resultImg2');
-  const imgDiv2 = document.querySelector('#resultImg3');
+  const imgDiv3 = document.querySelector('#resultImg3');
   var imgURL1 = 'img/image-' + point + '.png';
   var imgURL2 = 'img/image-' + 'result' + point + '.png';
   var imgURL3 = 'img/image-' + 'friend' + point + '.png';
