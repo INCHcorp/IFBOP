@@ -32,28 +32,22 @@
 
 .twitter{
   color: white;
-  background-color: #00acee;
-  font-size: 20px;
+  background: url("../img/twitter.png");
+  height: 60px;
+  width: 60px;
   border: 0px;
   border-radius: 20px;
-}
-
-.twitter:hover, .twitter:focus {
-  background-color: whitesmoke;
-  color: #00acee;
+  cursor: pointer;
 }
 
 .facebook{
   color: white;
-  background-color: #3b5998;
-  font-size: 20px;
+  background: url("../img/facebook.png");
+  height: 60px;
+  width: 60px;
   border: 0px;
   border-radius: 20px;
-}
-
-.facebook:hover, .facebook:focus {
-  background-color: whitesmoke;
-  color: #3b5998;
+  cursor: pointer;
 }
 
 .gohome{
