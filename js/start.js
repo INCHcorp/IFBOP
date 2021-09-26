@@ -23,8 +23,8 @@ function setResult(){
   const imgDiv2 = document.querySelector('#resultImg2');
   const imgDiv3 = document.querySelector('#resultImg3');
   var imgURL1 = 'img/image-' + point + '.png';
-  var imgURL2 = 'img/image-' + 'friend' + point + '.png';
-  var imgURL3 = 'img/image-' + 'result' + point + '.png';
+  var imgURL2 = 'img/image-' + 'result' + point + '.png';
+  var imgURL3 = 'img/image-' + 'friend' + point + '.png';
   resultImg1.src = imgURL1;
   resultImg2.src = imgURL2;
   resultImg3.src = imgURL3;
