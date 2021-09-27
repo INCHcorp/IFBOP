@@ -143,7 +143,7 @@ const infoList = [
     desc: ''
   },
   {
-    name: '엄지발가락 친구 <복숭아뼈>',
+    name: '엄지발가락 친구 <>',
     desc: ''
   },
   {
