@@ -1,5 +1,6 @@
 body{
   background-color: #FFE4C4;
+  background-image : url('./img/bg.png');
 }
 
 *{
